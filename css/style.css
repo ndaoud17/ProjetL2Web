@@ -1,0 +1,615 @@
+body{
+    background:radial-gradient( circle,midnightblue,black);
+}
+/**Icon**/
+
+ion-icon{
+    color: white;
+    padding-right: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+/**header**/
+
+header{
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.boutique h1{
+    font-size: 10rem;
+    color: #ffffff;
+}
+
+.index{
+    background-image: url("https://cdn.civitatis.com/francia/paris/galeria/louvre-cuadros.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.active ion-icon{
+    color: #efff00;
+}
+
+.active a{
+    color: #efff00;
+}
+
+.user {
+    flex-direction: column;
+}
+
+.user div{
+    margin-top: 2rem;
+    background-color: gray;
+    width: min-content;
+    justify-content: center;
+    border: blanchedalmond 5px solid;
+}
+.user h1{
+    font-size: 100px;
+    color: #ffffff;
+
+}
+
+.user ion-icon{
+    height: 300px;
+    width: 300px;
+}
+.user p{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+header>h1{
+    text-align: center;
+}
+
+.oeuvre{
+    margin-bottom: 6rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.oeuvre h1{
+    color: rgba(150, 150, 150, 0.2);
+    width: 100%;
+    text-align: center;
+    font-size: 6rem;
+}
+
+.oeuvre div{
+    background-color:  rgba(65, 63, 90, 0.3) ;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.oeuvre h1>strong{
+    color: rgba(0, 225, 255, 0.6);
+    font-size: 10rem;
+}
+
+/*div h1{
+    background: linear-gradient(to right, red , blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 150px;
+    font-family: Brush Script MT;
+}*/
+.titre>p{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Brush Script MT;
+    float: right;
+    padding-right: 20px;
+}
+
+header>.titre{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre div{
+    background-color:  rgba(65, 63, 90, 0.3) ;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.titre h1{
+    color: rgba(8, 0, 255,0.5);
+    width: 100%;
+    text-align: center;
+    font-size: 10rem;
+    text-shadow: black 1px 1px;
+}
+
+.titre h1 strong{
+    font-size: 12rem;
+    color: rgba(8, 0, 255, 0.5);
+    text-shadow: black 1px 1px;
+}
+
+/**Menu**/
+
+nav{
+    padding-top: 3rem;
+}
+
+nav>ul>li>a{
+    color: #ffffff;
+    list-style-type: none;
+    font-family: Arial;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav li{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.accueil ul li{
+    background-color:  rgba(65, 63, 90, 0.6) ;
+    padding: 10px;
+}
+.accueil ul li ion-icon,.accueil ul li a{
+
+}
+
+/**Formulaire**/
+
+.formulaire{
+   display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.formulaire legend{
+    text-align: center;
+}
+
+.formulaire .erreur{
+    text-align: center;
+}
+
+fieldset{
+    width: min-content;
+    border-radius: 10px;
+    border: medium solid #ffffff;
+    color: #ffffff;
+}
+
+form .line1, form .line2{
+    text-align: center;
+    width: 100%;
+    height: min-content;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+
+.submit{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+legend{
+    font-size: 40px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+form p{
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+label{
+    width: 160px;
+    font-size: 20px;
+}
+
+.submit>input{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid #ffffff;
+    color: #ffffff;
+    font-size: x-large;
+}
+
+::placeholder{
+    font-size: x-large;
+    color: #ffffff;
+}
+
+form #submit{
+    background-color: #04a804;
+}
+
+form #reset{
+    background-color: red;
+}
+
+.erreur{
+    font-size: 20px;
+    color: red;
+    display: block;
+}
+
+#identifiant:-webkit-autofill{
+    background-color: transparent;
+}
+
+#selectInscription{
+    width: 520px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: solid #ffffff;
+    font-size: x-large;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+#selectInscription>option{
+    background-color: midnightblue;
+}
+
+/** Formulaire Ajout Tableau **/
+
+#champsAjout{
+    width: 500px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: solid #ffffff;
+    font-size: large;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+#champsAjout::placeholder{
+    color: #ffffff;
+    font-size: large;
+}
+
+#formulaireAjout p{
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#formulaireAjout .submit>input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid #ffffff;
+    color: #ffffff;
+    font-size: large;
+}
+/** Formulaire Connexion **/
+
+#champs{
+    width: 500px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: solid #ffffff;
+    font-size: x-large;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+/** Formulaire Inscription **/
+
+#champsInscription{
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: solid #ffffff;
+    font-size: x-large;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+#formulaireAjout #submit{
+    background-color: #04a804;
+}
+
+#formulaireAjout #reset {
+    background-color: red;
+}
+/**Main**/
+
+.tableau{
+    display: flex;
+    justify-content: center;
+    border: rgba(255, 165, 0, 0.6) solid 10px;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    vertical-align: middle;
+    background-color: white;
+}
+.tableau section{
+    padding-right: 1rem;
+    color: black;
+    font-size: x-large;
+}
+.tableau img{
+    padding: 1rem;
+    background-size: cover;
+    height: 700px;
+    width: 400px;
+}
+
+.boutons p{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+    padding: 1rem;
+    border: solid 2px #ffffff;
+    flex-basis: 10%;
+    text-align: center;
+}
+.boutons .supprimer{
+    background-color: red;
+}
+
+.boutons .modifier{
+    background-color: rgb(98, 90, 90);
+}
+
+.supprimer a{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.modifier a{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main{
+    padding-top: 2rem;
+}
+
+.tableau h2{
+    font-family: Calibri;
+    font-size: xxx-large;
+}
+
+main>section{
+    height: 100vh;
+}
+
+p>strong{
+    color: red;
+}
+
+.boutons{
+    display: flex;
+    justify-content: center;
+}
+
+/** Main **/
+
+.formulaire{
+    padding-top: 1rem;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.articles{
+    background-color: blanchedalmond;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-basis: 30%;
+
+}
+
+.articles img{
+    height: 300px;
+
+}
+.articles>section{
+    height: min-content;
+}
+
+.article{
+    background-color: rgba(147, 146, 146, 0.7);
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    height: 640px;
+}
+
+.article p{
+    font-size: 20px;
+    height: min-content;
+}
+
+.panier>input{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+.panier{
+    border-top: black solid 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background: orange;
+    color: #ffffff;
+    width: 100%;
+}
+
+/** Formulaire Boutique **/
+
+.boutique{
+    height: 85vh;
+}
+
+#formulaireAchat{
+    height: 0;
+    padding-top: 2rem;
+
+}
+
+#champQuantite{
+    width: 2rem;
+    text-align: center;
+}
+
+/** Panier **/
+
+.monPanier>section{
+    background-color: blanchedalmond;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    height: 80vh;
+}
+
+.monPanier>section>header{
+    width: 100%;
+    justify-content: left;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
+    padding-top: 0;
+    height: min-content;
+    background-color: cadetblue;
+}
+
+.monPanier>section>header>h1{
+    padding-left: 1rem;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: black 1px 1px;
+}
+
+.monPanier table{
+    width: 100%;
+    text-align: center;
+}
+
+.critères th{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    text-shadow: black 1px 1px;
+
+}
+
+.critères{
+    background-color: midnightblue;
+}
+
+.critères td{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow: black 1px 1px;
+}
+
+#total-achat{
+    height: 55%;
+    position: fixed;
+    top: 85%;
+    right: 10%;
+    font-size: 20px;
+}
+
+.monPanier #valider{
+    margin-bottom: 2rem;
+    position: fixed;
+    top: 90%;
+    left: 43%;
+    font-size: 25px;
+}
+
+.monPanier #annuler{
+    margin-bottom: 2rem;
+    position: fixed;
+    top: 90%;
+    left: 52%;
+    font-size: 25px;
+}
+
+.monPanier div{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.monPanier div>ion-icon{
+    height: 100px;
+    width: 100px;
+    color: black;
+
+}
+
+.monPanier div>p{
+    line-height: 0;
+    font-size: 30px;
+}
+
+tr{
+    line-height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
